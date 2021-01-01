@@ -1,0 +1,38 @@
+.header {
+    color: white;
+    display: flex;
+    background-color: black;
+    justify-content: space-between;
+    margin: $m-size;
+    margin-top: 0;
+    padding: 0 $xs-size 0 $xs-size;
+    align-items: center;
+}
+
+.header__title {
+    color: white;
+    font-size: $xl-size;
+    margin: none;
+    margin-left: $xxs-size;
+    padding: none;
+    padding-right: 5px;
+    width: 40%;
+}
+
+.sub__header {
+    color: white;
+    display: flex;
+    align-items: center;
+    height: fit-content;
+    width: fit-content;
+    margin-right: $xxs-size;
+}
+
+.header__button--title {
+    color: white;
+    font-size: $l-size;
+    font-family: cursive;
+    font-weight: 200;
+    margin-left: $m-size;
+  }
+  
